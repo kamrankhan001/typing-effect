@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 100px;
+    color: tomato;
+}
+
+.static-text{
+    font-size: 100px;
+    font-weight: 400;
+    display: inline-block;
+    color: black;
+}
+
+.dynamic-text{
+    font-size: 100px;
+    font-weight: 500;
+    color: tomato;
+}
